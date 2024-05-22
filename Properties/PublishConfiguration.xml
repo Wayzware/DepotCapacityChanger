@@ -19,16 +19,16 @@ This mod allows you to easily change the vehicle capacity of transit depots from
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.0" />
+	<ModVersion Value="1.1.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="Initial release" />
+	<ChangeLog Value="Settings sliders can now be adjusted in 25% increments instead of 100%" />
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
-  <ExternalLink Type="github" Url="https://github.com/Wayzware" />
+  <ExternalLink Type="github" Url="https://github.com/Wayzware/DepotCapacityChanger" />
   <ExternalLink Type="paypal" Url="https://www.paypal.com/paypalme/wayzware" />
 </Publish>

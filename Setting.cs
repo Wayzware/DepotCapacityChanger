@@ -38,23 +38,23 @@ namespace DepotCapacityChanger
             system.Enabled = true;
         }
 
-        [SettingsUISlider(min = 100, max = 1000, step = 100, scalarMultiplier = 1, unit = Unit.kPercentage)]
+        [SettingsUISlider(min = 100, max = 1000, step = 25, scalarMultiplier = 1, unit = Unit.kPercentage)]
         [SettingsUISection(CapacitySection, CapacityGroup)]
         public int BusSlider { get; set; }
 
-        [SettingsUISlider(min = 100, max = 1000, step = 100, scalarMultiplier = 1, unit = Unit.kPercentage)]
+        [SettingsUISlider(min = 100, max = 1000, step = 25, scalarMultiplier = 1, unit = Unit.kPercentage)]
         [SettingsUISection(CapacitySection, CapacityGroup)]
         public int TaxiSlider { get; set; }
 
-        [SettingsUISlider(min = 100, max = 1000, step = 100, scalarMultiplier = 1, unit = Unit.kPercentage)]
+        [SettingsUISlider(min = 100, max = 1000, step = 25, scalarMultiplier = 1, unit = Unit.kPercentage)]
         [SettingsUISection(CapacitySection, CapacityGroup)]
         public int TramSlider { get; set; }
 
-        [SettingsUISlider(min = 100, max = 1000, step = 100, scalarMultiplier = 1, unit = Unit.kPercentage)]
+        [SettingsUISlider(min = 100, max = 1000, step = 25, scalarMultiplier = 1, unit = Unit.kPercentage)]
         [SettingsUISection(CapacitySection, CapacityGroup)]
         public int TrainSlider { get; set; }
 
-        [SettingsUISlider(min = 100, max = 1000, step = 100, scalarMultiplier = 1, unit = Unit.kPercentage)]
+        [SettingsUISlider(min = 100, max = 1000, step = 25, scalarMultiplier = 1, unit = Unit.kPercentage)]
         [SettingsUISection(CapacitySection, CapacityGroup)]
         public int SubwaySlider { get; set; }
     }
